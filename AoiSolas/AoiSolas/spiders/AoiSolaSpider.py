@@ -16,7 +16,7 @@ from AoiSolas.items import AoisolasItem
 
 class AoisolaspiderSpider(scrapy.Spider):
     name = "AoiSola"
-    allowed_domains = ["www.mm131.com"]
+    allowed_domains = ["www.mm131.com","www.mm131.net"]
     start_urls = ['http://www.mm131.com/xinggan/',
                   'http://www.mm131.com/qingchun/',
                   'http://www.mm131.com/xiaohua/',

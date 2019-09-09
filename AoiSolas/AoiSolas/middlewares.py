@@ -24,4 +24,5 @@ class AoisolasSpiderMiddleware(object):
         '''设置headers和切换请求头'''
         referer = request.url
         if referer:
-            request.headers['referer'] = referer
+            # request.headers['referer'] = referer
+            request.headers['referer'] = "http://www.mm131.com/?zzaqkey=4087969942"
